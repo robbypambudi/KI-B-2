@@ -67,7 +67,7 @@ def decryption(final_cipher):
 
     # Print or use the RPT for each round
   
-  print('\n')
+  # print('\n')
   final_result = rpt + lpt
   
   # Perform the final permutation (IP-1)
@@ -80,6 +80,6 @@ def decryption(final_cipher):
 
   # binary cipher string to ascii
   final_cipher_ascii = binary_to_ascii(final_cipher_str)
-  print("Decryption of Cipher :", final_cipher_ascii)
+  # print("Decryption of Cipher :", final_cipher_ascii)
 
   return final_cipher_ascii

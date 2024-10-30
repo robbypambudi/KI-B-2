@@ -68,7 +68,7 @@ def encryption(user_input):
 
     # Print or use the RPT for each round
 
-  print('\n')
+  # print('\n')
   # At this point, 'lpt' and 'rpt' contain the final left and right halves after 16 rounds
 
   # After the final round, reverse the last swap
@@ -82,6 +82,6 @@ def encryption(user_input):
 
   # Convert binary cipher to ascii
   final_cipher_ascii = binary_to_ascii(final_cipher_str)
-  print("Final Cipher text:", final_cipher_ascii , len(final_cipher_ascii))
+  # print("Final Cipher text:", final_cipher_ascii , len(final_cipher_ascii))
   
   return final_cipher_ascii
